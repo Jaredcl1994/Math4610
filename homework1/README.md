@@ -6,5 +6,5 @@ THis is a readme and table of contents.
 [1.4](https://jaredcl1994.github.io/math4610/SoftwareManual/roots.cpp): code to find roots    
 [1.5](https://jaredcl1994.github.io/math4610/SoftwareManual/smaceps.cpp): code to find smaceps  
 [1.6](https://jaredcl1994.github.io/math4610/SoftwareManual/maceps.cpp): code to find maceps    
-[1.7](https://jaredcl1994.github.io/math4610/homework1/output.png): picture of hello.f output
+[1.7](https://jaredcl1994.github.io/math4610/homework1/output.png): picture of hello.f output  
 [1.8](https://jaredcl1994.github.io/math4610/homework1/): library of code for this homework. Contains smaceps, maceps, and roots.  
