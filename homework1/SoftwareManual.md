@@ -6,9 +6,12 @@ Language: C++. The code can be compiled using the GNU C++ compiler (g++).
 For example  
 `g++ HW1.cpp`    
 will produce an executable.   
-Description/Purpose: This routine computes the single precision (float in C++) precision value for the machine epsilon. It tells you how many digits will be accurate for a certain computer using single digit precision.  
-Input: There are no inputs.  
-Output: returns an integer (the number of binary digits that define the machine epsilon) and prints the integer and a number which describes the smallest number that allows accurate calculations in single precision.    
+Description/Purpose:   
+This routine computes the single precision (float in C++) precision value for the machine epsilon. It tells you how many digits will be accurate for a certain computer using single digit precision.  
+Input:  
+There are no inputs.  
+Output:   
+returns an integer (the number of binary digits that define the machine epsilon) and prints the integer and a number which describes the smallest number that allows accurate calculations in single precision.    
 Usage/Example:    
 `smaceps();`      
 Output from that line:    
@@ -46,9 +49,12 @@ Language: C++, the code can be compiled using the GNU C++ compiler (g++).
 For example  
 `g++ HW1couble.cpp`    
 will produce an executable.   
-Description/Purpose: This routine computes the double precision (double in C++) precision value for the machine epsilon. It tells you how many digits will be accurate for a certain computer using double digit precision.  
-Input: There are no inputs.  
-Output: returns an integer (the number of binary digits that define the machine epsilon) and prints the integer and a number which describes the smallest number that allows accurate calculations in double precision.  
+Description/Purpose:   
+This routine computes the double precision (double in C++) precision value for the machine epsilon. It tells you how many digits will be accurate for a certain computer using double digit precision.  
+Input:   
+There are no inputs.  
+Output:   
+returns an integer (the number of binary digits that define the machine epsilon) and prints the integer and a number which describes the smallest number that allows accurate calculations in double precision.  
 Usage/Example:  
 `maceps();`    
 Output from that line:  
@@ -86,9 +92,12 @@ Language: C++, the code can be compiled using the GNU C++ compiler (g++).
 For example  
 `g++ roots.cpp`      
 will produce an executable.   
-Description/Purpose: This routine computes the real roots of a polynomial (as large as x^2) and prints them.  
-Input: Input the values a, b, and c of your polynomial.  
-Output: returns a pointer to an array containing the roots and prints them.   
+Description/Purpose:   
+This routine computes the real roots of a polynomial (as large as x^2) and prints them.  
+Input:   
+Input the values a, b, and c of your polynomial.  
+Output:   
+returns a pointer to an array containing the roots and prints them.   
 Usage/Example:  
 `roots(2,5,9.0/8.0)`    
 Output from that line:  
