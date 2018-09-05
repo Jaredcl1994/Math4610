@@ -1,1 +1,1 @@
-This is a readme. Look here for the [table of contents](https://jaredcl1994.github.io/math4610/SoftwareManual/TableOfContents.md)
+This is a readme which will contain the table of contents for the software manual.
