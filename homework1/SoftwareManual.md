@@ -14,7 +14,7 @@ Usage/Example:
 Output from that line:    
 #24 5.96046e-08    
 code for smaceps:    
-'''
+```c++
 float smaceps()
 {
   float seps = 1.0;
@@ -36,7 +36,7 @@ float smaceps()
     }
   return 0;
 }
-'''
+```
 
 
 ********************************************************
@@ -54,7 +54,7 @@ Usage/Example:
 Output from that line:  
 #53 1.11022e-16  
 code for maceps:  
-'''
+```c++
 double maceps()
 {
   double seps = 1.0;
@@ -76,7 +76,7 @@ double maceps()
     }
   return 0;
 }
-'''
+```
 
 
 ********************************************************
@@ -94,7 +94,7 @@ Usage/Example:
 Output from that line:  
 #-0.25 -2.25  
 Code for roots:  
-'''
+```c++
 #include <iostream>
 #include <cmath>
 
@@ -112,4 +112,4 @@ int main()
   roots(2.0, 5.0, 9.0/8.0);
   return 0;
 }
-'''
+```
