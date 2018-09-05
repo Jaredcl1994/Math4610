@@ -22,10 +22,4 @@ float smaceps()
     }
   return 0;
 }
-
-int main()
-{
-  int ipow1 = smaceps();
-  return 0;
-}
   
