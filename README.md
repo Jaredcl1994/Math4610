@@ -2,4 +2,4 @@
 
 This repository is where I keep all of my homework. Here is.
 
-1.[Homework 1](https://github.com/Jaredcl1994/math4610/tree/master/homework1)
+1.[Homework 1](https://jaredcl1994.github.io/math4610/homework1)
