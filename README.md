@@ -2,5 +2,5 @@
 
 This repository is where I keep all of my homework. Here is.
 
-1.[Homework 1](https://jaredcl1994.github.io/math4610/homework1)
+1.[Homework 1](https://jaredcl1994.github.io/math4610/homework1)  
 2.[Software Manual](https://jaredcl1994.github.io/math4610/SoftwareManual)
