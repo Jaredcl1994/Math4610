@@ -3,7 +3,7 @@
 Author: Jared Lambert  
 Language: C++. The code can be compiled using the GNU C++ compiler (g++).  
 For example  
-`g++ HW1.cpp`    
+`g++ smaceps.cpp`    
 will produce an executable.  
 
 Description/Purpose:   
