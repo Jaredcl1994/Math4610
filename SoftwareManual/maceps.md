@@ -2,7 +2,7 @@
 **Author:** Jared Lambert  
 **Language:** C++, the code can be compiled using the GNU C++ compiler (g++).  
 For example  
-`g++ HW1couble.cpp`    
+`g++ maceps.cpp`    
 will produce an executable.   
 
 **Description/Purpose:**   
