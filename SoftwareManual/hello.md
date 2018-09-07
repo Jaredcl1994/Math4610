@@ -12,7 +12,7 @@ This routine tells you how many processers you have and shows routines running i
 There are no inputs.  
 
 **Output:**   
-prints the number of thread as they run in parallel. At the end will print the total number of threads. see output example [here](https://jaredcl1994.gihub.io/math4610/homework1/output.png)   
+prints the number of thread as they run in parallel. At the end will print the total number of threads. see output example [here](https://jaredcl1994.github.io/math4610/homework1/output.png)   
 
 **Usage/Example:**     
 just compile and execute code   
