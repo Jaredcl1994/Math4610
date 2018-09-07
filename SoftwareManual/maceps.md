@@ -1,24 +1,24 @@
-**Routine Name: [maceps](https://github.com/Jaredcl1994/math4610/blob/master/homework1/HW1double.cpp)**  
-Author: Jared Lambert  
-Language: C++, the code can be compiled using the GNU C++ compiler (g++).  
+**Routine Name:** maceps    
+**Author:** Jared Lambert  
+**Language:** C++, the code can be compiled using the GNU C++ compiler (g++).  
 For example  
 `g++ HW1couble.cpp`    
 will produce an executable.   
 
-Description/Purpose:   
+**Description/Purpose:**   
 This routine computes the double precision (double in C++) precision value for the machine epsilon. It tells you how many digits will be accurate for a certain computer using double digit precision.  
 
-Input:   
+**Input:**   
 There are no inputs.  
 
-Output:   
+**Output:**   
 returns an integer (the number of binary digits that define the machine epsilon) and prints the integer and a number which describes the smallest number that allows accurate calculations in double precision.  
 
-Usage/Example:  
+**Usage/Example:**  
 `maceps();`    
-Output from that line:  
+**Output from that line:**  
 `53 1.11022e-16`    
-code for maceps:  
+**code for maceps:**  
 ```c++
 double maceps()
 {
