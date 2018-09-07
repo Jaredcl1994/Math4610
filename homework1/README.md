@@ -6,6 +6,6 @@
 [Problem 5](https://jaredcl1994.github.io/math4610/homework1/Scanned%20Documents.pdf): anti derivatives  
 [Problem 6](https://jaredcl1994.github.io/math4610/SoftwareManual/roots.cpp): code to find roots    
 [Problem 7](https://jaredcl1994.github.io/math4610/homework1/Scanned%20Documents.pdf): differential equations  
-[Problem 8](https://jaredcl1994.github.io/math4610/homework1/paragraph.docx): paragraph on machine precision application
+[Problem 8](https://jaredcl1994.github.io/math4610/homework1/paragraph.docx): paragraph on machine precision application  
 [Problem 9.1](https://jaredcl1994.github.io/math4610/homework1/x0is4.png): first graph  
 [Problem 9.2](https://jaredcl1994.github.io/math4610/homework1/x0is400.png): second graph  
