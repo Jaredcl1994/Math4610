@@ -1,5 +1,5 @@
 *******************************************************
-**Routine Name: [smaceps](https://github.com/Jaredcl1994/math4610/blob/master/homework1/HW1.cpp)**  
+**Routine Name: smaceps**  
 Author: Jared Lambert  
 Language: C++. The code can be compiled using the GNU C++ compiler (g++).  
 For example  
