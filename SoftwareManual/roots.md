@@ -1,25 +1,25 @@
 ********************************************************
-**Routine Name: [roots](https://github.com/Jaredcl1994/math4610/blob/master/homework1/roots.cpp)**  
-Author: Jared Lambert  
-Language: C++, the code can be compiled using the GNU C++ compiler (g++).  
+**Routine Name: roots**  
+**Author:** Jared Lambert  
+**Language:** C++, the code can be compiled using the GNU C++ compiler (g++).  
 For example  
 `g++ roots.cpp`      
 will produce an executable.   
 
-Description/Purpose:   
+**Description/Purpose:**   
 This routine computes the real roots of a polynomial (as large as x^2) and prints them.  
 
-Input:   
+**Input:**   
 Input the values a, b, and c of your polynomial.  
 
-Output:   
+**Output:**   
 returns a pointer to an array containing the roots and prints them.   
 
-Usage/Example:  
+**Usage/Example:**  
 `roots(2,5,9.0/8.0)`    
-Output from that line:  
+**Output from that line:**  
 `-0.25 -2.25`    
-Code for roots:  
+**Code for roots:**  
 ```c++
 #include <iostream>
 #include <cmath>
@@ -33,9 +33,4 @@ double* roots(double a, double b, double c)
   return returnval;
 }
 
-int main()
-{
-  roots(2.0, 5.0, 9.0/8.0);
-  return 0;
-}
 ```
