@@ -1,4 +1,3 @@
-#This is the software manual for my first homework set. 
 *******************************************************
 **Routine Name: [smaceps](https://github.com/Jaredcl1994/math4610/blob/master/homework1/HW1.cpp)**  
 Author: Jared Lambert  
