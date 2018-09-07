@@ -15,8 +15,9 @@ There are no inputs.
 prints the number of thread as they run in parallel. At the end will print the total number of threads. see output example [here](https://jaredcl1994.github.io/math4610/homework1/output.png)   
 
 **Usage/Example:**     
-just compile and execute code   
-code for smaceps: 
+just compile and execute code 
+
+**code for hello:** 
 
 ```fortran
       program main
