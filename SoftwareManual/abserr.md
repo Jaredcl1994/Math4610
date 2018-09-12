@@ -15,9 +15,17 @@ There are two inputs, both doubles. The first input is the expected value. The s
 returns a double which is the absolute error.
 
 **Usage/Example:**     
+You will call the function with two arguments, as previously stated, like:
+```c++
+std::cout << abserr(1.0, 1.1);
+```
+and the output for this line will look like:
+```
+0.1
+```
+which is the absolute error between the two values.
 
-
-**code for hello:** 
+**code for abserr:** 
 
 ```c++
 #include <iostream>
