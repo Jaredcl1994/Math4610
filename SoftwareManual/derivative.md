@@ -21,7 +21,7 @@ std::cout << derivative(3.14159, 0.5);
 ```
 and the output for this line will return some double, depending on the function in use.
 To fun a code continually approaching a precise approximation, you will use:  
-```
+```c++
 #include <iostream>
 #include <cmath>
 #include <fstream>
