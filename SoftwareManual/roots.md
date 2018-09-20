@@ -1,7 +1,5 @@
 # Math 4610 Fundamentals of Computational Mathematics Software Manual ROOTS File
-This is a template file for building an entry in the student software manual project. You should use the formatting below to
-define an entry in your software manual.
-
+  
 **Routine Name:**           roots
 
 **Author:** Jared Lambert
@@ -26,8 +24,9 @@ better
 **Output:** returns a string containing the roots separated by a comma and a space. If the root is imaginary, it will return a complex number signified by an i at the end. 
 
 **Usage/Example:**
+```
 `     std::cout << roots(2.0,5.0,10.0);`  
-
+```  
 Output from the lines above:
 
     -1.250000-1.854050*i, -1.250000+1.854050*i  
