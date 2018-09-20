@@ -31,7 +31,9 @@ You will call the function with two arguments, as previously stated, like:
 std::cout << abserr(1.0, 1.1);
 ```
 and the output for this line will look like:    
-```0.1```  
+```
+0.1
+```  
 
 which is the absolute error between the two values.
 
