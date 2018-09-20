@@ -6,9 +6,9 @@
   
 **Language:** C++, the code can be compiled using the GNU C++ compiler (g++).  
 For example  
-  
+ ``` 
 `g++ maceps.cpp`    
-  
+  ```
 will produce an executable.   
   
 **Description/Purpose:**   This routine computes the double precision (double in C++) precision value for the machine epsilon. It tells you how many digits will be accurate for a certain computer using double digit precision.  
