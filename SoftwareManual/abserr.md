@@ -48,4 +48,4 @@ double relerr(double expval, double machval)
 }
 
 ```
-**Last Modified:** September/2017
+**Last Modified:** September/2018
