@@ -1,24 +1,34 @@
-**Routine Name:** hello  
-**Author:** Joe Koebbe  
-**Language:** Fortran. The code can be compiled using the GNU C++ compiler (g++).  
-For example  
-`gfortran hello.f`    
-will produce an executable.  
+# Math 4610 Fundamentals of Computational Mathematics Software Manual HELLO File
 
-**Description/Purpose:**   
-This routine tells you how many processers you have and shows routines running in parallel.  
+**Routine Name:**           hello
 
-**Input:**  
-There are no inputs.  
+**Author:** Joe Koebbe
 
-**Output:**   
-prints the number of thread as they run in parallel. At the end will print the total number of threads. see output example [here](https://jaredcl1994.github.io/math4610/homework1/output.png)   
+**Language:** Fortran, the code can be compiled using the GNU fortran compiler (gfortran). 
 
-**Usage/Example:**     
-just compile and execute code 
+For example,
 
-**code for hello:** 
+    gfortran hello.f
 
+will produce an executable **./a.exe** than can be executed. If you want a different name, the following will work a bit
+better
+
+    gfortran -o hello hello.f
+
+**Description/Purpose:** This routine tells you how many processers you have and shows routines running in parallel.  
+      
+
+
+**Input:** There are no inputs     
+
+
+**Output:** prints the number of thread as they run in parallel. At the end will print the total number of threads. see output example [here](https://jaredcl1994.github.io/math4610/homework1/output.png)     
+  
+
+**Usage/Example:**
+Just compile and execute the code.
+
+**Implementation/Code:** The following is the code for hello
 ```fortran
       program main
       integer id, nthrds
@@ -36,7 +46,4 @@ C$OMP END PARALLEL
       end
           
 ```
-
-
-********************************************************
-
+**Last Modified:** September/2017
