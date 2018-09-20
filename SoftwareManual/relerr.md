@@ -17,7 +17,8 @@ will produce an executable.
   
 **Output:**   returns a double which is the relative error.
   
-**Usage/Example:**     
+**Usage/Example:**  
+  
 You will call the function with two arguments, as previously stated, like:
 ```c++
 std::cout << relerr(10.0, 10.1);
@@ -28,7 +29,7 @@ and the output for this line will look like:
 ```
 which is the relative error between the two values.
 
-**code for relerr:** 
+**Implementation/Code:** 
 
 ```c++
 #include <iostream>
