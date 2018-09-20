@@ -1,24 +1,31 @@
+# Math 4610 Fundamentals of Computational Mathematics Software Manual MACEPS File
+
 **Routine Name:** maceps    
+  
 **Author:** Jared Lambert  
+  
 **Language:** C++, the code can be compiled using the GNU C++ compiler (g++).  
 For example  
+  
 `g++ maceps.cpp`    
+  
 will produce an executable.   
-
-**Description/Purpose:**   
-This routine computes the double precision (double in C++) precision value for the machine epsilon. It tells you how many digits will be accurate for a certain computer using double digit precision.  
-
-**Input:**   
-There are no inputs.  
-
-**Output:**   
-returns an integer (the number of binary digits that define the machine epsilon) and prints the integer and a number which describes the smallest number that allows accurate calculations in double precision.  
-
+  
+**Description/Purpose:**   This routine computes the double precision (double in C++) precision value for the machine epsilon. It tells you how many digits will be accurate for a certain computer using double digit precision.  
+  
+**Input:**   There are no inputs.  
+  
+**Output:**   returns an integer (the number of binary digits that define the machine epsilon) and prints the integer and a number which describes the smallest number that allows accurate calculations in double precision.  
+  
 **Usage/Example:**  
-`maceps();`    
+All you need to du is run the function:  
+`maceps();`  
+and receive the output in the console or in a file.  
+  
 **Output from that line:**  
 `53 1.11022e-16`    
-**code for maceps:**  
+  
+**Implementation/Code:**  
 ```c++
 double maceps()
 {
