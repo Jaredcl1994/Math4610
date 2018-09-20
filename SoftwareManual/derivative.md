@@ -1,6 +1,6 @@
-# Math 4610 Fundamentals of Computational Mathematics Software Manual DERIVATIVE File
+# Math 4610 Fundamentals of Computational Mathematics Software Manual DERIVATIVE1 File
 
-**Routine Name:**           derivative
+**Routine Name:**           derivative1
 
 **Author:** Jared Lambert
 
@@ -8,12 +8,12 @@
 
 For example,
 
-    g++ derivative.cpp
+    g++ derivative1.cpp
 
 will produce an executable **./a.exe** than can be executed. If you want a different name, the following will work a bit
 better
 
-    g++ -o derivative derivative.cpp
+    g++ -o derivative derivative1.cpp
 
 **Description/Purpose:** This routine computes an approximation of the derivative, with precision limited by h        
 
@@ -27,7 +27,7 @@ better
 **Usage/Example:**
 You will call the function with two arguments, as previously stated, like:
 ```c++
-std::cout << derivative(3.14159, 0.5);
+std::cout << derivative1(3.14159, 0.5);
 ```
 and the output for this line will return some double, depending on the function in use.
 To fun a code continually approaching a precise approximation, you will use:  
@@ -37,7 +37,7 @@ To fun a code continually approaching a precise approximation, you will use:
 #include <fstream>
 #include "relerr.cpp"
 #include "abserr.cpp"
-#include "derivative.cpp"
+#include "derivative1.cpp"
 
 int main()
 {
@@ -49,7 +49,7 @@ int main()
 
   for(int i = 0; i < 100; i++)
     {
-      double machval = derivative(x,h);
+      double machval = derivative1(x,h);
       of<< i << " ";
       h = h/2;
     }
@@ -60,7 +60,7 @@ int main()
 ```  
 Which creates a file called "derivative_results_1.txt. must use a shared library, instructions for creating a shared library in software manual
 
-**Implementation/Code:** The following is the code for abserr()
+**Implementation/Code:** The following is the code for derivative1()
 ``` c++
 #include <iostream>
 #include <cmath>
