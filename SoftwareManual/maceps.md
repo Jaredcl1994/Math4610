@@ -19,11 +19,11 @@ will produce an executable.
   
 **Usage/Example:**  
 All you need to du is run the function:  
-`maceps();`  
+````maceps();`  ````
 and receive the output in the console or in a file.  
   
 **Output from that line:**  
-`53 1.11022e-16`    
+````53 1.11022e-16````    
   
 **Implementation/Code:**  
 ```c++
