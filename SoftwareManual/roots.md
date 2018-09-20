@@ -1,26 +1,41 @@
-********************************************************
-**Routine Name: roots**  
-**Author:** Jared Lambert  
-**Language:** C++, the code can be compiled using the GNU C++ compiler (g++).  
-For example  
-`g++ roots.cpp`      
-will produce an executable.   
+# Math 4610 Fundamentals of Computational Mathematics Software Manual ROOTS File
+This is a template file for building an entry in the student software manual project. You should use the formatting below to
+define an entry in your software manual.
 
-**Description/Purpose:**   
-This routine computes the real roots of a polynomial (as large as x^2) and prints them.  
+**Routine Name:**           roots
 
-**Input:**   
-Input the values a, b, and c of your polynomial. If you input an 'a' value of 0, then it will return an error.  
+**Author:** Jared Lambert
 
-**Output:**   
-returns a string containing the roots separated by a comma and a space. If the root is imaginary, it will return a complex number signified by an i at the end.   
+**Language:** C++, the code can be compiled using the GNU C++ compiler (g++). 
 
-**Usage/Example:**  
-`std::cout << roots(2.0,5.0,10.0);`    
-**Output from that line:**  
-``-1.250000-1.854050*i, -1.250000+1.854050*i``  
-**Code for roots:**  
-```c++
+For example,
+
+    g++ roots.cpp
+
+will produce an executable **./a.exe** than can be executed. If you want a different name, the following will work a bit
+better
+
+    g++ -o roots roots.cpp
+
+**Description/Purpose:** This routine computes the real roots of a polynomial (as large as x^2) and prints them.  
+
+
+**Input:** Input the values a, b, and c of your polynomial. If you input an 'a' value of 0, then it will return an error.  
+
+
+**Output:** returns a string containing the roots separated by a comma and a space. If the root is imaginary, it will return a complex number signified by an i at the end. 
+
+**Usage/Example:**
+`     std::cout << roots(2.0,5.0,10.0);`  
+
+Output from the lines above:
+
+    -1.250000-1.854050*i, -1.250000+1.854050*i  
+
+The first value uses a minus sign and the second uses a plus.  
+
+**Implementation/Code:** The following is the code for roots()
+``` c++
 #include <iostream>
 #include <cmath>
 #include <string>
@@ -58,3 +73,4 @@ std::string roots(double a, double b, double c)
 
 
 ```
+**Last Modified:** September/2017
