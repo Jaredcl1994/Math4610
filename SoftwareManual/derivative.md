@@ -73,4 +73,4 @@ double derivative(double x, double h)
 }
 
 ```
-**Last Modified:** September/2017
+**Last Modified:** September/2018
