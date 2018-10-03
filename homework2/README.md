@@ -7,4 +7,4 @@ Problem 3: text file of absolute error for the evaluation of sin(0) by derivativ
 [Problem 7](https://Jaredcl1994.github.io/math4610/SoftwareManual/secant): secant method  
 [Problem 8](https://Jaredcl1994.github.io/math4610/SoftwareManual/newthybrid): newton hybrid method  
 [Problem 9](https://Jaredcl1994.github.io/math4610/SoftwareManual/sechybrid): secant hybrid method  
-[Problem 10]()  
+[Problem 10](https://Jaredcl1994.github.io/math4610/homework2/citations.txt): citations for bracketing methods    
