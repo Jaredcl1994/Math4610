@@ -1,3 +1,4 @@
 http://www.sci.utah.edu/~beiwang/teaching/cs6210-fall-2016/lecture38.pdf  
 http://www.aip.de/groups/soe/local/numres/bookcpdf/c9-1.pdf  
 http://citeseerx.ist.psu.edu/viewdoc/download?doi=10.1.1.720.8609&rep=rep1&type=pdf  
+you can use an iterative search to find the brackets for your root finding method. You just have to make sure your increments aren't too big, or else you will miss the root.
