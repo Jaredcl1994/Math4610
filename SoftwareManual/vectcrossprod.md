@@ -8,34 +8,43 @@
 
 For example,
 
-    g++ abserr.cpp
+    g++ -o vect abserr.cpp
 
-will produce an executable **./a.exe** than can be executed. If you want a different name, the following will work a bit
-better
-
-    g++ -o abserr abserr.cpp
-
-**Description/Purpose:** This routine gives you an absolute error between a machine value and an expected value   
+**Description/Purpose:** This routine gives you the cross product of two vectors.     
     
 
 
-**Input:** There are two inputs, both doubles. The first input is the expected value. The second input is the machine value.  
+**Input:** There are two inputs, both of type std::vector<double>.  
+    
 
-
-**Output:** returns a double which is the absolute error.
+**Output:** returns an std::vector<double> which is the cross product of the two input vectors.  
   
 
 **Usage/Example:**
 You will call the function with two arguments, as previously stated, like:
 ```c++
-std::cout << abserr(1.0, 1.1);
+int main()
+{
+  std::vector<double> a = {1,2,3};
+  std::vector<double> b = {0,1,2};
+  std::vector<double> c = vectcrossprod(a,b);
+  for(auto x:c)
+    {
+      std::cout << x << std::endl;
+    }
+  return 0;
+}
+
+
 ```
 and the output for this line will look like:    
 ```
-0.1
+1
+-2
+1
 ```  
 
-which is the absolute error between the two values.
+which is the cross product from first entry to last.
 
 **Implementation/Code:**  
 
@@ -64,4 +73,4 @@ std::vector<double>  vectcrossprod(std::vector<double> a, std::vector<double> b)
 }
 ```
 
-**Last Modified:** September/2018
+**Last Modified:** October/2018
