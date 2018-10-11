@@ -1,6 +1,6 @@
-# Math 4610 Fundamentals of Computational Mathematics Software Manual VECTCROSSPROD File
+# Math 4610 Fundamentals of Computational Mathematics Software Manual VECTINNERPROD File
 
-**Routine Name:**           vectcrossprod
+**Routine Name:**           vectinnerprod
 
 **Author:** Jared Lambert
 
@@ -8,16 +8,16 @@
 
 For example,
 
-    g++ -o vect abserr.cpp
+    g++ -o vectinnerprod.cpp  
 
-**Description/Purpose:** This routine gives you the cross product of two vectors.     
+**Description/Purpose:** This routine gives you the inner product of two vectors.     
     
 
 
 **Input:** There are two inputs, both of type std::vector<double>.  
     
 
-**Output:** returns an std::vector<double> which is the cross product of the two input vectors.  
+**Output:** returns a double which is the inner product of the two input vectors.  
   
 
 **Usage/Example:**
