@@ -25,14 +25,13 @@ You will call the function with two arguments, as previously stated, like:
 ```c++
 int main()
 {
-  double* a = {1,2,3};
-  double* b = {0,1,2};
-  double c = vectinnerprod(a,b);
+  int size = 3;
+  double a[] = {1,2,3};
+  double b[] = {0,1,2};
+  double c = vectinnerprod(a,b,size);
   std::cout << c << std::endl;
   return 0;
 }
-
-
 ```
 and the output for this line will look like:    
 ```
@@ -52,7 +51,7 @@ which is the inner product.
 double vectinnerprod(double* a,double* b, int size)
 {
   double c = 0.0;
-  for(int i = 0; i < x; i++)
+  for(int i = 0; i < size; i++)
     {
       c = c + a[i] * b[i];
     }
