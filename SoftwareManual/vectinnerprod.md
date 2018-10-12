@@ -14,14 +14,14 @@ For example,
     
 
 
-**Input:** There are two inputs, both of type std::vector<double>.  
+**Input:** There are 3 inputs, the first arrays of doubles which are the arguments of the inner product. The third is the size of the arrays as an int.  
     
 
 **Output:** returns a double which is the inner product of the two input vectors.  
   
 
 **Usage/Example:**
-You will call the function with two arguments, as previously stated, like:
+You will call the function with 3 arguments, as previously stated, like:
 ```c++
 int main()
 {
@@ -46,7 +46,6 @@ which is the inner product.
 #include <iostream>
 #include <cmath>
 #include <assert.h>
-#include <vector>
 
 double vectinnerprod(double* a,double* b, int size)
 {
