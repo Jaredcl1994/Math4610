@@ -57,7 +57,7 @@ which is the product.
 double*  vectscalarmult(double a, double* b, double* c, int size)
 {
   assert(size > 0);
-  for(int i = 0; i < y; i++)
+  for(int i = 0; i < size; i++)
     {
       c[i]=(a * b[i]);
     }
