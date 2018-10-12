@@ -25,8 +25,8 @@ You will call the function with two arguments, as previously stated, like:
 ```c++
 int main()
 {
-  std::vector<double> a = {1,2,3};
-  std::vector<double> b = {0,1,2};
+  double* a = {1,2,3};
+  double* b = {0,1,2};
   double c = vectinnerprod(a,b);
   std::cout << c << std::endl;
   return 0;
@@ -49,11 +49,8 @@ which is the inner product.
 #include <assert.h>
 #include <vector>
 
-double vectinnerprod(std::vector<double> a, std::vector<double> b)
+double vectinnerprod(double* a,double* b, int size)
 {
-  int x = a.size();
-  int y = b.size();
-  assert(x == y);
   double c = 0.0;
   for(int i = 0; i < x; i++)
     {
