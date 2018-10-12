@@ -1,4 +1,4 @@
-#Table of Contents   
+# Table of Contents   
 [smaceps](https://jaredcl1994.github.io/math4610/SoftwareManual/smaceps): single precision machine epsilon  
 [maceps](https://jaredcl1994.github.io/math4610/SoftwareManual/maceps): double precision machine epsilon  
 [roots](https://jaredcl1994.github.io/math4610/SoftwareManual/roots): method using quadratic formula to find roots  
