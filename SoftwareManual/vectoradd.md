@@ -14,10 +14,10 @@ For example,
     
 
 
-**Input:** There are two inputs, both of type std::vector<double>.  
+**Input:** There are four inputs. The first two are the arrays you will be adding. The third is an array of the same size that you pass in by reference and which will contain your results. The fourth is the size of the arrays.  
     
 
-**Output:** returns an std::vector<double> which is the sum of the two input vectors.  
+**Output:** returns a pointer to the array which you passed in, which is the sum of the two input vectors.  
   
 
 **Usage/Example:**
@@ -25,12 +25,14 @@ You will call the function with two arguments, as previously stated, like:
 ```c++
 int main()
 {
-  std::vector<double> a = {1,2,3};
-  std::vector<double> b = {0,1,2};
-  std::vector<double> c = vectoradd(a,b);
-  for(auto x:c)
+  int size = 3;
+  double a[] = {1,2,3};
+  double b[] = {0,1,2};
+  double *c = new double[size];
+  c = vectoradd(a,b,c,size);
+  for(int i = 0; i < size; i++)
     {
-      std::cout << x << std::endl;
+      std::cout << c[i] << std::endl;
     }
   return 0;
 }
@@ -50,15 +52,11 @@ which is the sum.
 #include <assert.h>
 #include <vector>
 
-std::vector<double>  vectoradd(std::vector<double> a, std::vector<double> b)
+double*  vectoradd(double* a, double* b, double* c, int size)
 {
-  int x = a.size();
-  int y = b.size();
-  assert(x == y);
-  std::vector<double> c;
-  for(int i = 0; i < x; i++)
+  for(int i = 0; i < size; i++)
     {
-      c.push_back(a[i] + b[i]);
+      c[i] = (a[i] + b[i]);
     }
   return c;
 }
