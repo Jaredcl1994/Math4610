@@ -14,10 +14,10 @@ For example,
     
 
 
-**Input:** There are two inputs, both of type std::vector<double>.  
+**Input:** There are four inputs, first two arrays are the arrays to be operated on. Third is an array passed in by reference for your results to be stored. Forth is an integer containing size of arrays.  
     
 
-**Output:** returns an std::vector<double> which is the difference of the two input vectors.  
+**Output:** returns a pointer to the array you passed in, which is the difference of the first two input vectors.  
   
 
 **Usage/Example:**
@@ -25,12 +25,14 @@ You will call the function with two arguments, as previously stated, like:
 ```c++
 int main()
 {
-  std::vector<double> a = {1,2,3};
-  std::vector<double> b = {0,1,2};
-  std::vector<double> c = vectorsub(a,b);
-  for(auto x:c)
+  int size = 3;
+  double a[] = {1,2,3};
+  double b[] = {0,1,2};
+  double *c = new double[size];
+  c = vectorsub(a,b,c,size);
+  for(int i = 0; i < size; i++)
     {
-      std::cout << x << std::endl;
+      std::cout << c[i] << std::endl;
     }
   return 0;
 }
@@ -50,17 +52,12 @@ which is the difference.
 #include <iostream>
 #include <cmath>
 #include <assert.h>
-#include <vector>
 
-std::vector<double>  vectorsub(std::vector<double> a, std::vector<double> b)
+double*  vectorsub(double* a, double* b, double* c, int size)
 {
-  int x = a.size();
-  int y = b.size();
-  assert(x == y);
-  std::vector<double> c;
-  for(int i = 0; i < x; i++)
+  for(int i = 0; i < size; i++)
     {
-      c.push_back(a[i] - b[i]);
+      c[i] = (a[i] - b[i]);
     }
   return c;
 }
