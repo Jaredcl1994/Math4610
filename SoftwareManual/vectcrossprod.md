@@ -8,7 +8,7 @@
 
 For example,
 
-    g++ -o vect abserr.cpp
+    g++ -o vectcrossprod.cpp
 
 **Description/Purpose:** This routine gives you the cross product of two vectors.     
     
