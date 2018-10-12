@@ -1,6 +1,6 @@
 Problem 1: l1, l2, and linfiniti norms  
 Problem 2: relative and absolute error in approximation of a vector  
-Problem 3: vector addition, subtraction, scalar multiplication, inner product, cross product  
+Problem 3: [vector addition](https://jaredcl1994.github.io/math4610/SoftwareManual/vectoradd), [subtraction](), [scalar multiplication](), [inner product](), [cross product]()  
 Problem 4: frobenius, l1, and linfiniti norm of matrices  
 Problem 5: matrix addition, subtraction, transpose, trace, scalar multiplication, multiplication of 2 matrices  
 Problem 6: matrix outer product, kronecker product, determinant  
