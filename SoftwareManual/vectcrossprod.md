@@ -14,10 +14,10 @@ For example,
     
 
 
-**Input:** There are two inputs, both of type std::vector<double>.  
+**Input:** There are four inputs, first two double arrays are the arguments in the operation. The third is a double array which is passed in by reference and will store your results. The fourth is an int giving the size of each array.  
     
 
-**Output:** returns an std::vector<double> which is the cross product of the two input vectors.  
+**Output:** returns a pointer to an array of doubles which is the cross product of the two input vectors.  
   
 
 **Usage/Example:**
@@ -25,12 +25,14 @@ You will call the function with two arguments, as previously stated, like:
 ```c++
 int main()
 {
-  std::vector<double> a = {1,2,3};
-  std::vector<double> b = {0,1,2};
-  std::vector<double> c = vectcrossprod(a,b);
-  for(auto x:c)
+  int size = 3;
+  double a[] = {1,2,3};
+  double b[] = {0,1,2};
+  double* c = new double[size];
+  c = vectcrossprod(a,b,c,size);
+  for(int i = 0; i < size; i++)
     {
-      std::cout << x << std::endl;
+      std::cout << c[i] << std::endl;
     }
   return 0;
 }
@@ -52,22 +54,17 @@ which is the cross product from first entry to last.
 #include <iostream>
 #include <cmath>
 #include <assert.h>
-#include <vector>
 
-std::vector<double>  vectcrossprod(std::vector<double> a, std::vector<double> b)
+double*  vectcrossprod(double* a, double* b, double* c, int size)
 {
-  int x = a.size();
-  int y = b.size();
-  assert(x == y);
-  std::vector<double> c;
   int j = 0;
   int k = 0;
-  for(int i = 0; i < x; i++)
+  for(int i = 0; i < size; i++)
     {
-      j = (i + 1)%x;
-      k = (i + 2)%x;
+      j = (i + 1)%size;
+      k = (i + 2)%size;
       double l = a[j] * b[k] - a[k]*b[j];
-      c.push_back(l);
+      c[i] = l;
     }
   return c;
 }
