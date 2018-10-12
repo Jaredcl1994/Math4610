@@ -25,19 +25,21 @@ You will call the function with two arguments, as previously stated, like:
 ```c++
 int main()
 {
+  int size = 3;
   double a = 1.5;
-  std::vector<double> b = {0,1,2};
-  std::vector<double> c = vectscalarmult(a,b);
-  for(auto x:c)
+  double b[] = {0,1,2};
+  double *c = new double[size];
+  c = vectscalarmult(a,b,c,size);
+  for(int i = 0; i < size; i++)
     {
-      std::cout << x << std::endl;
+      std::cout << c[i] << std::endl;
     }
   return 0;
 }
 ```
 and the output for this line will look like:    
 ```
-1
+0
 1.5
 3
 ```  
@@ -52,14 +54,12 @@ which is the product.
 #include <assert.h>
 #include <vector>
 
-std::vector<double>  vectscalarmult(double a, std::vector<double> b)
+double*  vectscalarmult(double a, double* b, double* c, int size)
 {
-  int y = b.size();
-  assert(y > 0);
-  std::vector<double> c;
+  assert(size > 0);
   for(int i = 0; i < y; i++)
     {
-      c.push_back(a * b[i]);
+      c[i]=(a * b[i]);
     }
   return c;
 }
